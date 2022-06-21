@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@800&display=swap');
+
+h1 {
+    font-family: 'Poppins';
+    font-size: 3.5rem;
+    color: white;
+}
+
+#logo {
+    width: 90px;
+}
+
+@media (min-width: 800px ) {
+    #logo {
+        width: 65px;
+        margin-right: 20px;
+        position: relative;
+        top: 9px;
+    }
+
+    .header * {
+        padding-top: 9px;
+        display: inline-flex;
+    }
+}
