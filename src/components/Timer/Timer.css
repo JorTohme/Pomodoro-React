@@ -16,7 +16,7 @@ h2 {
     color: white;
     padding-top: 20px;
     width: 400px;
-    border-radius: 10px;
+    border-radius: 6px;
 }
 
 .buttons {
@@ -32,7 +32,7 @@ h2 {
     width: 100px;
     height: 25px;
     border-radius: 5px;
-    background-color: #a1c1e2;
+    background-color: #e0e0e0;
     cursor: pointer;
 }
 
@@ -47,16 +47,16 @@ h2 {
     width: 300px;
     height: 55px;
     border-radius: 5px;
-    background-color: #3b84cd;
-    border: solid #21578c;
+    background-color: #212122;
+    border: solid #626262;
     color: white;
     cursor: pointer;
     box-shadow: inset 1px 1px 6px 6px #1a174233;
 }
 
 #button-3:hover {
-    background-color: #7597b9;
-    border: solid #4e6881;
+    background-color: #606060;
+    box-shadow: none;
 }
 
 @media (min-width: 800px ) {
